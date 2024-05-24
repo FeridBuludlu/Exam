@@ -1,0 +1,136 @@
+.footer_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: black;
+}
+.first_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.footer_about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-right: 20px;
+
+    h3 {
+        font-family: "Poppins", sans-serif;
+        color: white;
+        font-size: 18px;
+    }
+
+    p {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        color: white;
+    }
+}
+
+.footer_news {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-right: 20px;
+
+    h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+
+    p {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        color: white;
+    }
+
+    .input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .input_mail {
+        padding: 10px;
+    }
+
+    .input_button {
+        padding: 10px 13px;
+        background-color: #f41068;
+    }
+}
+
+.feed {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-right: 20px;
+
+    h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+
+    .images img {
+        padding: 5px;
+    }
+}
+
+.follow_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    i {
+        color: white;
+    }
+}
+
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    h3 {
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+    }
+
+    p {
+
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+    }
+}
+
+.conclusion p{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

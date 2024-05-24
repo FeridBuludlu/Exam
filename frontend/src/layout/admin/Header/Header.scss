@@ -1,0 +1,28 @@
+.Header_right ul{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    li{
+        list-style-type: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+}
+.Header_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Header_main{
+    display: flex;
+    align-items:center ;
+    justify-content: space-evenly;
+    padding: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
